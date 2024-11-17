@@ -1,0 +1,38 @@
+
+7)WAP to check whether entered number is prime or not.
+<html>
+    <head>
+        <body>
+            <script>
+                function pare(){
+        let number=prompt("enter the number")
+        number=parseInt(number)
+
+         if(number<=1){
+            document.write("this is your allowed for prime calculation")
+         }
+         else{
+            bprime=true
+                for(let i=2;i<=number/2;i++){
+                    if(number%i==0){
+                       isprime=false
+                       break
+                }
+            }
+
+                if(bprime){
+                    document.write("this is prime")
+                }
+                else{
+                    document.write("this is not prime")
+                }
+         
+            }
+        }
+    
+                pare()
+     //local storage //localstorage .setitem(1,"muskan")//application //local storage // js express //
+            </script>
+        </body>
+    </head>
+</html>
